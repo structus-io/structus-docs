@@ -10,22 +10,28 @@ const config: Config = {
   url: 'https://structus-io.github.io',
   baseUrl: '/structus-docs/',
 
-  metadata: [
-    {
-      name: 'description',
-      content: 'Structus: A comprehensive framework for building clean architecture applications with Domain-Driven Design, CQRS, and event-driven architecture. Multi-language support including Kotlin, with more languages coming soon.',
-    },
-    {
-      name: 'keywords',
-      content: 'Clean Architecture, Domain-Driven Design, DDD, CQRS, Event-Driven Architecture, framework, Kotlin, software architecture, enterprise development',
-    },
-  ],
-
   organizationName: 'structus-io',
   projectName: 'structus-docs',
 
   onBrokenLinks: 'warn',
-  
+
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Structus: A comprehensive framework for building clean architecture applications with Domain-Driven Design, CQRS, and event-driven architecture. Multi-language support including Kotlin, with more languages coming soon.',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'Clean Architecture, Domain-Driven Design, DDD, CQRS, Event-Driven Architecture, framework, Kotlin, software architecture, enterprise development',
+      },
+    },
+  ],
+
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
