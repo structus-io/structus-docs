@@ -1,0 +1,19 @@
+.codeBlockWrapper {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.preWrapper {
+  position: relative;
+}
+
+.preWrapper code {
+  padding-right: 3rem;
+}
+
+@media (max-width: 768px) {
+  .preWrapper code {
+    padding-right: 2.5rem;
+  }
+}
+

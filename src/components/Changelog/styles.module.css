@@ -1,0 +1,178 @@
+.changelog {
+  margin: 2rem 0;
+}
+
+.changelog h2 {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.entries {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.entry {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: var(--ifm-background-color);
+}
+
+.versionHeader {
+  padding: 1.25rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease-in-out;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.versionHeader:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.versionInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.version {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  font-weight: 500;
+}
+
+.statusBadge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.released {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.unreleased {
+  background-color: #f39c12;
+  color: white;
+}
+
+.deprecatedBadge {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.changes {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.change {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem;
+  background-color: var(--ifm-background-color);
+  border-left: 4px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.25rem;
+}
+
+.type {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+  color: white;
+}
+
+.type.added {
+  background-color: #2ecc71;
+}
+
+.type.changed {
+  background-color: #3498db;
+}
+
+.type.fixed {
+  background-color: #9b59b6;
+}
+
+.type.removed {
+  background-color: #e74c3c;
+}
+
+.type.deprecated {
+  background-color: #f39c12;
+}
+
+.type.security {
+  background-color: #c0392b;
+}
+
+.type.default {
+  background-color: #95a5a6;
+}
+
+.breaking {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.3rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.15rem;
+  font-size: 0.7rem;
+}
+
+.description {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-900);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .versionHeader {
+    padding: 1rem;
+  }
+
+  .versionInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .changes {
+    padding: 1rem;
+  }
+
+  .change {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .type {
+    width: fit-content;
+  }
+}
+

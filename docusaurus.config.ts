@@ -3,12 +3,23 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Structus',
-  tagline: 'A pure Kotlin JVM library for implementing Explicit Architecture',
+  title: 'Structus - Clean Architecture Framework',
+  tagline: 'A powerful framework for implementing Explicit Architecture with Domain-Driven Design principles across multiple programming languages.',
   favicon: 'img/favicon.ico',
 
   url: 'https://structus-io.github.io',
   baseUrl: '/structus-docs/',
+
+  metadata: [
+    {
+      name: 'description',
+      content: 'Structus: A comprehensive framework for building clean architecture applications with Domain-Driven Design, CQRS, and event-driven architecture. Multi-language support including Kotlin, with more languages coming soon.',
+    },
+    {
+      name: 'keywords',
+      content: 'Clean Architecture, Domain-Driven Design, DDD, CQRS, Event-Driven Architecture, framework, Kotlin, software architecture, enterprise development',
+    },
+  ],
 
   organizationName: 'structus-io',
   projectName: 'structus-docs',
@@ -75,6 +86,11 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          truncateMarker: /<!-- truncate -->/,
+          blogSidebarCount: 10,
+          blogSidebarTitle: 'Recent Posts',
+          postsPerPage: 5,
+          routeBasePath: 'blog',
         },
         theme: {
           customCss: './src/css/custom.css',

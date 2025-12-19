@@ -1,0 +1,38 @@
+.copyButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 10;
+}
+
+.copyButton:hover {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+.copyButton.copied {
+  border-color: var(--ifm-color-success);
+  background-color: var(--ifm-color-success);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .copyButton {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+

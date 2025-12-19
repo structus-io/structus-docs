@@ -55,6 +55,9 @@ const sidebars: SidebarsConfig = {
       label: 'Reference',
       items: [
         'reference/api-overview',
+        'reference/api-reference',
+        'reference/changelog',
+        'reference/component-usage',
       ],
     },
     {
