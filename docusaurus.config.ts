@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://structus-io.github.io',
-  baseUrl: '/',
+  baseUrl: '/structus-docs/',
 
   organizationName: 'structus-io',
   projectName: 'structus-docs',
