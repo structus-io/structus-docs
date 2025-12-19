@@ -1,0 +1,66 @@
+{
+  "version.label": {
+    "message": "0.1.0 (Latest)",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category 'Introduction' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Architecture": {
+    "message": "Architecture",
+    "description": "The label for category 'Architecture' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Topics": {
+    "message": "Advanced Topics",
+    "description": "The label for category 'Advanced Topics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Best Practices": {
+    "message": "Best Practices",
+    "description": "The label for category 'Best Practices' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Reference": {
+    "message": "Reference",
+    "description": "The label for category 'Reference' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.AI Agent Support": {
+    "message": "AI Agent Support",
+    "description": "The label for category 'AI Agent Support' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Learning Resources": {
+    "message": "Learning Resources",
+    "description": "The label for category 'Learning Resources' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Cookbook & Recipes": {
+    "message": "Cookbook & Recipes",
+    "description": "The label for category 'Cookbook & Recipes' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Integration Guides": {
+    "message": "Integration Guides",
+    "description": "The label for category 'Integration Guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Playground": {
+    "message": "Playground",
+    "description": "The label for category 'Playground' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.doc.Introduction": {
+    "message": "Introduction",
+    "description": "The label for the doc item 'Introduction' in sidebar 'tutorialSidebar', linking to the doc intro"
+  },
+  "sidebar.tutorialSidebar.doc.About": {
+    "message": "About",
+    "description": "The label for the doc item 'About' in sidebar 'tutorialSidebar', linking to the doc about"
+  },
+  "sidebar.tutorialSidebar.doc.Migration Guide": {
+    "message": "Migration Guide",
+    "description": "The label for the doc item 'Migration Guide' in sidebar 'tutorialSidebar', linking to the doc migration-guide"
+  },
+  "sidebar.tutorialSidebar.doc.Roadmap & Future Projects": {
+    "message": "Roadmap & Future Projects",
+    "description": "The label for the doc item 'Roadmap & Future Projects' in sidebar 'tutorialSidebar', linking to the doc roadmap"
+  }
+}
